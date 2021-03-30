@@ -261,7 +261,7 @@ return {
 		Documentation = "https://github.com/evaera/RadialSpriteSheetGenerator/blob/master/README.md";
 	};
 
-	Ready = {
+	--[[Ready = {
 		-- Original repo no longer exists. Causes RoStrap to crash completely.
 		-- Full credit to the author for the original code. License is included
 		-- in local directory.
@@ -269,7 +269,7 @@ return {
 		URL = "Sanjay-B/Libraries/blob/master/local/Ready.lua";
 		Description = "A Library for yielding until an object's descendants have finished replicating";
 		Documentation = "https://github.com/EmeraldSlash/RbxReady/blob/master/README.md";
-	};
+	};]]--
 
 	DataStoreService = {
 		URL = "buildthomas/MockDataStoreService/tree/master/lib";
