@@ -262,7 +262,11 @@ return {
 	};
 
 	Ready = {
-		URL = "EmeraldSlash/RbxReady/blob/master/Ready.lua";
+		-- Original repo no longer exists. Causes RoStrap to crash completely.
+		-- Full credit to the author for the original code. License is included
+		-- in local directory.
+		--URL = "EmeraldSlash/RbxReady/blob/master/Ready.lua";
+		URL = "Sanjay-B/Libraries/blob/master/local/Ready.lua";
 		Description = "A Library for yielding until an object's descendants have finished replicating";
 		Documentation = "https://github.com/EmeraldSlash/RbxReady/blob/master/README.md";
 	};
